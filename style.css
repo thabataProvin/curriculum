@@ -1,0 +1,137 @@
+body {
+    margin:20px 80px;
+    box-shadow: -10px 10px 10px gray;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.div-principal{
+    background-color: rgb(192,192,192, 0.2);
+}
+
+.div-lateralesq{
+    width: 30%;
+    padding: 30px;
+}
+
+h1{
+    font-weight:900;
+    font-size: 50px;
+    text-align: left;
+}
+
+.titulo-principal:before{
+    content:"◆ ◆ ◆ ◆";
+    font-size: 60%;
+    color: grey;
+    margin-right: 10px;
+}
+.titulo-principal{
+    font-size: 20px;
+    margin: 20px 0 0 10px;
+}
+.foto {
+    border:3px solid black;    
+    height:200px;
+    border-radius:50%;
+    width:200px;
+    display: block;
+    margin: 50px auto;
+}
+
+.titulo-h4{
+    font-size: 20px;
+    border-bottom: 2px solid #000000;
+    width: 60%;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+
+}
+p{
+    text-align: justify;
+}
+ul{
+    margin-top: 60px;
+}
+li{
+    padding: 5px;
+}
+
+.baixo:after{
+    content:"◔";
+    margin-left: 1em;
+    color:SlateBlue;
+    font-size: 25px;
+
+}
+
+.medio:after{
+    content:"◑";
+    margin-left: 1em;
+    color:DarkSlateBlue;
+    font-size: 25px;
+
+
+}
+
+.alto:after{
+    content:"◕";
+    margin-left: 1em;
+    color:MidnightBlue;
+    font-size: 25px;
+}
+
+.baixo .tooltiptext-baixo {
+    visibility: hidden;
+    font-size: 10px;
+    width: 120px;
+    background-color: rgb(79, 48, 214);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.medio .tooltiptext-medio {
+    visibility: hidden;
+    font-size: 10px;
+    width: 120px;
+    background-color: rgb(79, 48, 214);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.alto .tooltiptext-alto {
+    visibility: hidden;
+    font-size: 10px;
+    width: 120px;
+    background-color: rgb(79, 48, 214);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.baixo:hover .tooltiptext-baixo{
+    visibility: visible;
+}
+.medio:hover .tooltiptext-medio{
+    visibility: visible;
+}
+.alto:hover .tooltiptext-alto{
+    visibility: visible;
+}
+
+li:hover{
+    font-size: larger ;
+    font-weight: bolder;
+}
